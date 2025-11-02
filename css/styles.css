@@ -59,7 +59,7 @@ body {
   display: flex;
   gap: 40px;
 }
-.page-header .container .list-nav {
+.list-nav {
   padding: 24px 0 24px;
 }
 .main-logo {
@@ -116,7 +116,7 @@ body {
   background-color: #2e2f42;
 }
 
-.section-hero .container {
+.section-hero {
   padding: 188px 0 188px;
 }
 
@@ -171,7 +171,7 @@ body {
 .features-list {
   display: flex;
 }
-.features-item {
+.features-list {
   flex-basis: calc((100% - 72px) / 4);
   gap: 24px;
 }
