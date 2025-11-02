@@ -44,6 +44,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-nav {
@@ -174,6 +175,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .features-text {
   font-weight: 400;
@@ -188,14 +190,14 @@ body {
   background-color: #f4f4fd;
   padding: 120px 0;
 }
-
 .team-list {
   display: flex;
   flex-basis: calc((100%- 72px) / 4);
   gap: 24px;
 }
-.img-description {
+.team-descr {
   padding: 32px 16px;
+  text-align: center;
 }
 .title-team {
   font-weight: 700;
@@ -205,14 +207,15 @@ body {
   text-transform: capitalize;
   color: #2e2f42;
   text-align: center;
+  margin-bottom: 72px;
 }
 .team-items {
   background-color: #ffffff;
-  padding-bottom: 32px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .team-name {
   font-weight: 500;
   font-size: 20px;
@@ -220,6 +223,7 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 8px;
 }
 .team-position {
   font-weight: 400;
@@ -232,6 +236,16 @@ body {
 /* #endregion our team */
 
 /* #region portfolio */
+.section-portfolio {
+  padding: 120px 0;
+}
+.list-portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: calc((100% - 96px) / 6);
+  gap: 24px;
+}
+
 .title-portfolio {
   font-weight: 700;
   font-size: 36px;
@@ -240,6 +254,16 @@ body {
   color: #2e2f42;
   text-align: center;
   text-transform: capitalize;
+  margin-bottom: 60px;
+}
+
+.portfolio-descr {
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
 }
 .project-name {
   font-weight: 500;
@@ -247,6 +271,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .project-descr {
   font-weight: 400;
@@ -257,6 +282,10 @@ body {
 /* #endregion portfolio */
 .container-footer {
   background-color: #2e2f42;
+  padding: 100px 0;
+}
+.descr-footer {
+  width: 264px;
 }
 .logo-footer {
   font-weight: 700;
@@ -266,6 +295,8 @@ body {
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
   color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .text-white {
   color: #f4f4fd;
@@ -276,6 +307,5 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  font-family: "Raleway", sans-serif;
 }
 /* #region footer */
