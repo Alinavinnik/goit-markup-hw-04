@@ -114,6 +114,9 @@ body {
 /* #region hero */
 .section-hero {
   background-color: #2e2f42;
+  background-image: url(../images/baner/img-banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .section-hero {
