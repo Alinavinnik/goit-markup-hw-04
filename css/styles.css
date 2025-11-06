@@ -309,6 +309,9 @@ body {
   background-color: #2e2f42;
   padding: 100px 0;
 }
+.content-footer {
+  display: flex;
+}
 .logo-footer {
   font-weight: 700;
   font-size: 18px;
@@ -330,5 +333,19 @@ body {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
+  margin-right: 120px;
 }
+
+.title-social {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+.social-list {
+  display: flex;
+  gap: 16px;
+}
+
 /* #endregion footer */
