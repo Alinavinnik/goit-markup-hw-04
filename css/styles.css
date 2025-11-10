@@ -293,21 +293,17 @@ body {
   border-radius: 50%;
   justify-content: center;
   align-items: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.sosial-link-team:hover,
+.sosial-link-team:focus {
+  background-color: #404bbf;
 }
 /* #endregion our team */
 
 /* #region portfolio*/
 .section-portfolio {
   padding: 120px 0;
-}
-.list-portfolio {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
-  row-gap: 48px;
-}
-.item-portfolio {
-  flex-basis: calc((100% - 96px) / 3);
 }
 .title-portfolio {
   font-weight: 700;
@@ -319,7 +315,46 @@ body {
   text-transform: capitalize;
   margin-bottom: 72px;
 }
+.list-portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  row-gap: 48px;
+}
+.item-portfolio {
+  flex-basis: calc((100% - 96px) / 3);
+  position: relative;
+  overflow: hidden;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.item-portfolio:hover,
+.item-portfolio:focus {
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+.overlay-portfolio {
+  background-color: #4d5ae5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.item-portfolio:hover .overlay-portfolio,
+.item-portfolio:active .overlay-portfolio {
+  transform: translateY(0);
+}
 
+.text-overlay {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  padding: 40px 32px 0 32px;
+}
 .portfolio-descr {
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
@@ -343,9 +378,6 @@ body {
 /* #endregion portfolio*/
 
 /* #region footer */
-/* #4d5ae5 
-#f4f4fd */
-
 .container-footer {
   background-color: #2e2f42;
   padding: 100px 0;
@@ -396,5 +428,10 @@ body {
   height: 40px;
   justify-content: center;
   align-items: center;
+  transition: ackground-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.sosial-link:hover,
+.sosial-link:focus {
+  background-color: #31d0aa;
 }
 /* #endregion footer */
