@@ -435,9 +435,6 @@ body {
   gap: 16px;
   align-items: baseline;
 }
-.social-item {
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 .sosial-link {
   display: flex;
   background-color: #4d5ae5;
@@ -446,6 +443,7 @@ body {
   height: 40px;
   justify-content: center;
   align-items: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .sosial-link:hover,
 .sosial-link:focus {
