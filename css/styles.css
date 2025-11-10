@@ -39,6 +39,9 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+.social-icon {
+  fill: #f4f4fd;
+}
 /* #endregion common */
 
 /* #region header */
@@ -282,7 +285,15 @@ body {
   display: flex;
   gap: 24px;
 }
-
+.sosial-link-team {
+  display: flex;
+  background-color: #4d5ae5;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
 /* #endregion our team */
 
 /* #region portfolio*/
@@ -377,7 +388,13 @@ body {
   display: flex;
   gap: 16px;
 }
-/* .sosial-link {
-  fill: #4d5ae5;
-} */
+.sosial-link {
+  display: flex;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+}
 /* #endregion footer */
